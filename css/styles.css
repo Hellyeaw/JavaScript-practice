@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #D7AE82;
+  font-family: TimesNewRoman, serif;
+}
+
+.figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3em;
+  padding-bottom: 1em; 
+}
+
+#info-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  height: 0;
+  width:79%;
+  z-index: 11;
+  background-color: #5C331D;
+  color: #C9C1AB;
+  overflow-x: hidden;
+  transition: all 0.3s;
+  padding: 0 1.8em;
+  margin-bottom: 3em;
+}
+
+h2{
+  font-size: 2.5em;
+  line-height: 3em;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.change {
+  height: 35vh;
+}
+
+/* Quiz */
+.part-2 {
+  height: 75vh;
+}
+
+.Quiz {
+  padding: 0 10em;
+}
+
+.Quiz h3 {
+  font-size: 2em;
+}
+
+.Quiz p {
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+button {
+  background: #5C331D;
+  border: #5C331D;
+  color: #C9C1AB;
+  padding: 0.5em;
+  border-radius: 10%;
+  font-size: 1em;
+  margin: 1em;
+}
+
+button:hover {
+  background: #C9C1AB;
+  border: #C9C1AB;
+  color: #5C331D;
+}
